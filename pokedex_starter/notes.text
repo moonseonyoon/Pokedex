@@ -1,0 +1,10 @@
+JAVASCRIPT
+
+1. send an AJAX request to the pokemon endpoint 
+
+2. Call our funtion when the user clicks the left or right arrows 
+    - Also need to call the function when the user presses Enter in the input
+
+3. Grab the relevant data, and plug it in where it needs to go 
+
+4. add another AJAX request to the species endpoint 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/pokedex.js"></script>
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div id="pokedex">
+        <div class="circle">
+            <div class="circle-inner"></div>
+        </div>
+        <div class="display-outer">
+            <div class="display">
+                <div class="top">
+                    <div class="image-container">
+                        <img id="sprite" src="" alt="Pokemon Sprite" height="100px"
+                            onerror="this.src='./assets/images/pokeball-transparent.png'">
+                        <h2>No.<span id="id"></span></h2>
+                    </div>
+                    <div class="details">
+                        <h2 id="name"></h2>
+                        <h2 id="genus"></h2>
+                        <h2>HT <span id="height"></span>m</h2>
+                        <h2>WT <span id="weight"></span>kg</h2>
+                    </div>
+                </div>
+                <div class="separator">
+                    <div class="left">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                    <div class="right">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+                <h2 id="description"></h2>
+            </div>
+        </div>
+        <div class="controls">
+            <input type="text" id="nameInput">
+            <div class="direction-pad">
+                <div class="up"></div>
+                <div class="middle-row">
+                    <div class="left"></div>
+                    <div class="center"></div>
+                    <div class="right"></div>
+                </div>
+                <div class="down"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
